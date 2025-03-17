@@ -23,4 +23,7 @@ Microsoft Entra ID를 사용하면 권한이 적은 역할로 ID 작업을 관�
 4. Select the Next button.
 5. Mark the Active value for Assignment Type.
 6. Select Assign
+   
 ![image](https://github.com/user-attachments/assets/dbedb034-7888-4ab8-88ad-2b3fb5491d9a)
+
+7. 저장 후 완료 
