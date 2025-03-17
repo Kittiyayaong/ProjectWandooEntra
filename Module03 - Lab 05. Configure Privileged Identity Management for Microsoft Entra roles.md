@@ -1,5 +1,5 @@
-# Module 04 - Implement Access Management for Apps
-## 06. Configure Privileged Identity Management for Microsoft Entra roles
+# Module 03 - Implement Access Management for Apps
+## 05. Configure Privileged Identity Management for Microsoft Entra roles
 
 ### 시나리오 
 권한 있는 역할 관리자는 적격 역할 할당을 활성화하는 사용자의 경험을 변경하는 등 Microsoft Entra 조직에서 권한 있는 신원 관리(PIM)를 사용자 지정할 수 있습니다. PIM 구성에 익숙해야 합니다.
