@@ -23,15 +23,16 @@
    * 15 - Configure an Multifactor authentication registration policy
    * 16 - Using Azure Key Vault for Managed Identities
      
-3. Module 03 - Implement Access Management for Apps	17 - Defender for Cloud Apps application discovery and enforcing restrictions
-Module 03 - Implement Access Management for Apps	18 - Defender for Cloud Apps Access Policies
-Module 03 - Implement Access Management for Apps	19 - Register an application
-Module 03 - Implement Access Management for Apps	20 - Implement access management for apps
-Module 03 - Implement Access Management for Apps	21 - Grant tenant-wide admin consent to an application
-Module 04 - Plan and Implement and Identity Governance Strategy	22 - Create and manage a catalog of resources in Microsoft Entra entitlement management
-Module 04 - Plan and Implement and Identity Governance Strategy	23 - Add terms of use and acceptance reporting
-Module 04 - Plan and Implement and Identity Governance Strategy	24 - Manage the lifecycle of external users in Microsoft Entra Identity Governance settings
-Module 04 - Plan and Implement and Identity Governance Strategy	25 - Creating Access Reviews for Internal and External Users
-Module 04 - Plan and Implement and Identity Governance Strategy	26 - Configure Privileged Identity Management for Microsoft Entra roles
-Module 04 - Plan and Implement and Identity Governance Strategy	27 - Microsoft Sentinel Kusto Queries for Microsoft Entra data sources
-Module 04 - Plan and Implement and Identity Governance Strategy	28 - Monitor and managed security posture with Identity Secure Score
+3. Module 03 - Implement Access Management for Apps
+   * 17 - Defender for Cloud Apps application discovery and enforcing restrictions
+   * 18 - Defender for Cloud Apps Access Policies
+   * 19 - Register an application
+   * 20 - Implement access management for apps
+   * 21 - Grant tenant-wide admin consent to an application
+   * 22 - Create and manage a catalog of resources in Microsoft Entra entitlement management
+   * 23 - Add terms of use and acceptance reporting
+   * 24 - Manage the lifecycle of external users in Microsoft Entra Identity Governance settings
+   * 25 - Creating Access Reviews for Internal and External Users
+   * 26 - Configure Privileged Identity Management for Microsoft Entra roles
+   * 27 - Microsoft Sentinel Kusto Queries for Microsoft Entra data sources
+   * 28 - Monitor and managed security posture with Identity Secure Score
