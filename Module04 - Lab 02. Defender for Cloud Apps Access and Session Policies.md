@@ -1,4 +1,4 @@
-# Module 03 - Implement Access Management for Apps
+# Module 04 - Implement Access Management for Apps
 ## 02. Defender for Cloud Apps Access and Session Policies
 
 ### 시나리오 
