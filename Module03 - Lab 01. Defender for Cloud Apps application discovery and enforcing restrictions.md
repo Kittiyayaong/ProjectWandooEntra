@@ -16,3 +16,7 @@ Tips. Sanctioned 앱은 조직 내에서 공식적으로 승인된 애플리케�
 ![image](https://github.com/user-attachments/assets/c714e9d5-ebf2-467d-8a6a-525551125de6)
 
 우측에 동그라미 표시 클릭으로 바로 'unsanctioned' 처리가 가능
+
+Tips. 애플리케이션과 해당 애플리케이션을 실행 및 취소할 때 지연이 발생합니다. 최대 5분까지 기다려야 할 수도 있습니다.
+
+Tips. 애플리케이션이 승인되지 않은 상태로 차단되면 브라우저, 비공개 브라우저 또는 클라우드 앱용 Microsoft Defender와 통합된 MDE(Microsoft Defender for Endpoint)에 온보딩된 클라이언트의 스토어 다운로드를 통해 애플리케이션에 액세스할 수 없습니다.
