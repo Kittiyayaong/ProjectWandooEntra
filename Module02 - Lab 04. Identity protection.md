@@ -15,10 +15,12 @@
    * Policy Enforcement: Enabled
 3. 설정 완료
   
---- 
-Tips.
 
-Microsoft의 권장 사항은 액세스 허용 및 비밀번호 변경 필요입니다
+* Task 2 - Enable Sign-in risk policy
 
----
- 
+1. task 1과 동일한 위치에서 'sign-in risk policy'로 이동
+2. 사용자 위험 정책과 마찬가지로 로그인 위험 정책도 사용자와 그룹에게 할당할 수 있으며, 사용자를 정책에서 제외할 수 있습니다.
+3. Sign-in risk: High
+4. Control: Allow access > Require multifactor authentication
+5. Policy Enforcement: Enabled
+6. 설정 완료 
