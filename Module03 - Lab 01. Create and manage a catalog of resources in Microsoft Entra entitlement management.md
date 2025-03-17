@@ -1,8 +1,17 @@
 # Module 03 - Plan and Implement and Identity Governance Strategy
 ## 01. Create and manage a catalog of resources in Microsoft Entra entitlement management
 
-### 시나리오 
-카탈로그는 리소스와 액세스 패키지의 컨테이너입니다. 관련 리소스를 그룹화하고 패키지에 액세스하려면 카탈로그를 생성합니다. 카탈로그를 생성하는 사람은 누구나 첫 번째 카탈로그 소유자가 됩니다. 카탈로그 소유자는 카탈로그 소유자를 추가할 수 있습니다. 조직에서 카탈로그를 생성하고 구성해야 합니다.
+### Lab 설명 
+
+1. Catalog란? 리소스 카탈로그는 관련된 리소스와 액세스 패키지를 그룹화하는 컨테이너입니다. 관리자는 카탈로그를 생성할 수 있으며, 카탈로그 생성자 역할로 위임된 사용자도 자신이 소유한 리소스에 대해 카탈로그를 생성할 수 있습니다
+
+2. 카탈로그의 주요 기능 및 목적
+* 리소스 그룹화: 관련된 리소스와 액세스 패키지를 그룹화하여 관리합니다
+* 액세스 패키지 관리: 사용자가 요청할 수 있는 액세스 패키지를 생성하고 관리합니다.
+* 외부 사용자 지원: 외부 디렉토리의 사용자가 액세스 패키지를 요청할 수 있도록 지원합니다
+
+3. 추가 정보
+* [Create and manage a catalog of resources in entitlement management](https://learn.microsoft.com/en-us/entra/id-governance/entitlement-management-catalog-create)
 
 #### Exercise 1 - Building out resources in Entitlement Management
 * Task 1 - Create a catalog
