@@ -37,3 +37,8 @@ Tips.
 
 ---
 
+7. 특정 할당 기간을 지정하려면 시작 날짜와 종료 날짜 및 시간을 변경합니다. (max 1year)
+![image](https://github.com/user-attachments/assets/9dd7d7ac-3aa1-4303-88db-9ce337c47dd2)
+
+8. 설정 완료 
+
