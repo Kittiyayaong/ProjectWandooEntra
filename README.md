@@ -4,20 +4,14 @@
 
 ## 실습 순서 
 1. Module 01 - Implement an Identity Management Solution
-   * [01 - Manage User Roles](https://github.com/Kittiyayaong/ProjectWandooEntra/blob/main/Module01%20-%20Lab%2001.%20Manage%20User%20roles.md)
+   * [01 - Manage User Roles](https://github.com/Kittiyayaong/ProjectWandooEntra/blob/main/Module01%20-%20Lab%2001.%20Manage%20user%20roles.md)
    * [02 - Assigning licenses using group membership](https://github.com/Kittiyayaong/ProjectWandooEntra/blob/main/Module01%20-%20Lab%2002.%20Assigning%20licenses%20using%20group%20membership.md)
    * [03 - Add guest users to the directory](https://github.com/Kittiyayaong/ProjectWandooEntra/blob/main/Module01%20-%20Lab%2003.%20Add%20guest%20users%20to%20the%20directory.md)
   
 2. Module 02 - Implement an Authentication and Access Management Solution
-   * 08 - Enable multi-factor authentication
-   * 09 - Enable Microsoft Entra self service password reset
-   * 10 - Microsoft Entra ID Authentication for Windows and Linux Virtual Machines
-   * 11 - Assign Azure resource roles in Privileged Identity Management
-   * 12 - Manage Microsoft Entra smart lockout values
-   * 13 - Implement and test a conditional access policy
-   * 14 - Enable sign in and user risk policies
-   * 15 - Configure an Multifactor authentication registration policy
-   * 16 - Using Azure Key Vault for Managed Identities
+   * [01-a - Enable multi-factor authentication](https://github.com/Kittiyayaong/ProjectWandooEntra/blob/main/Module02%20-%20Lab%2001-a.%20Enable%20multi-factor%20authentication.md)
+   * [01-b - Configure MFA to be required for login](https://github.com/Kittiyayaong/ProjectWandooEntra/blob/main/Module02%20-%20Lab%2001-b.Configure%20MFA%20to%20be%20required%20for%20login.md)
+   * [02- Configure and deploy self-service password reset](https://github.com/Kittiyayaong/ProjectWandooEntra/blob/main/Module02%20-%20Lab%2002.%20Configure%20and%20deploy%20self-service%20password%20reset.md)
      
 3. Module 03 - Implement Access Management for Apps
    * 17 - Defender for Cloud Apps application discovery and enforcing restrictions
