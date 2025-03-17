@@ -1,5 +1,5 @@
-# Module 04 - Implement Access Management for Apps
-## 04. Manage the lifecycle of external users in Microsoft Entra Identity Governance settings
+# Module 03 - Implement Access Management for Apps
+## 03. Manage the lifecycle of external users in Microsoft Entra Identity Governance settings
 
 ### 시나리오 
 액세스 패키지 요청이 승인되어 디렉토리에 초대된 외부 사용자가 더 이상 액세스 패키지 할당을 받지 못할 때 발생하는 일을 선택할 수 있습니다. 이는 사용자가 모든 액세스 패키지 할당을 포기하거나 마지막 액세스 패키지 할당이 만료되는 경우에 발생할 수 있습니다. 기본적으로 외부 사용자가 더 이상 액세스 패키지 할당을 받지 못하면 디렉토리에 로그인할 수 없습니다. 30일이 지나면 해당 사용자의 게스트 사용자 계정이 디렉토리에서 제거됩니다.
