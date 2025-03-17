@@ -4,13 +4,9 @@
 
 ## 실습 순서 
 1. Module 01 - Implement an Identity Management Solution
-   * 01 - Manage User Roles
-   * 02 - Working with Tenant Properties
-   * 03 - Assigning licenses using group membership
-   * 04 - Configure external collaboration settings
-   * 05 - Add guest users to the directory
-   * 06 - Add a federated identity provider
-   * 07 - Optional — Add Hybrid Identity with Microsoft Entra Connect
+   * [01 - Manage User Roles](https://github.com/Kittiyayaong/ProjectWandooEntra/blob/main/Module01%20-%20Lab%2001.%20Manage%20User%20roles.md)
+   * [02 - Assigning licenses using group membership](https://github.com/Kittiyayaong/ProjectWandooEntra/blob/main/Module01%20-%20Lab%2002.%20Assigning%20licenses%20using%20group%20membership.md)
+   * [03 - Add guest users to the directory](https://github.com/Kittiyayaong/ProjectWandooEntra/blob/main/Module01%20-%20Lab%2003.%20Add%20guest%20users%20to%20the%20directory.md)
   
 2. Module 02 - Implement an Authentication and Access Management Solution
    * 08 - Enable multi-factor authentication
