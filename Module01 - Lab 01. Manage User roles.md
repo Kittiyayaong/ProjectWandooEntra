@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/7b6a7ec7-65de-4c01-ba49-971fe7a0cc9f)# Module 01 - Implement an Identity Management Solution 
+# Module 01 - Implement an Identity Management Solution 
 ## 01. Manage User Roles 
 
 ### 시나리오 
