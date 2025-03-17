@@ -1,6 +1,10 @@
 # ProjectWandooEntra
 ## Hands-on Lab 개요
 본 실습 과정은 한국 마이크로소프트와 파트너의 기술 협력 프로그램 중 하나인 "Project Wandoo"의 Entra 솔루션 실습 과정입니다. 
+Entra P2 라이센스 feature를 기반으로 작성되었습니다. 
+
+![image](https://github.com/user-attachments/assets/17ea424d-f462-45b6-bc1b-960584425fb7)
+
 
 ## 실습 순서 
 1. Module 01 - Implement an Identity Management Solution
