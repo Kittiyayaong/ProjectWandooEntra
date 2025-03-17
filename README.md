@@ -12,6 +12,9 @@
    * [01-a - Enable multi-factor authentication](https://github.com/Kittiyayaong/ProjectWandooEntra/blob/main/Module02%20-%20Lab%2001-a.%20Enable%20multi-factor%20authentication.md)
    * [01-b - Configure MFA to be required for login](https://github.com/Kittiyayaong/ProjectWandooEntra/blob/main/Module02%20-%20Lab%2001-b.Configure%20MFA%20to%20be%20required%20for%20login.md)
    * [02 - Configure and deploy self-service password reset](https://github.com/Kittiyayaong/ProjectWandooEntra/blob/main/Module02%20-%20Lab%2002.%20Configure%20and%20deploy%20self-service%20password%20reset.md)
+   * [03 - Assign Azure resource roles in Privileged Identity Management](https://github.com/Kittiyayaong/ProjectWandooEntra/blob/main/Module02%20-%20Lab%2003.%20Assign%20Azure%20resource%20roles%20in%20Privileged%20Identity%20Management.md)
+   * [04 - Identity protection](https://github.com/Kittiyayaong/ProjectWandooEntra/blob/main/Module02%20-%20Lab%2004.%20Identity%20protection.md)
+   * [05 - Configure an Multifactor authentication registration policy](https://github.com/Kittiyayaong/ProjectWandooEntra/blob/main/Module02%20-%20Lab%2005.%20Configure%20an%20Multifactor%20authentication%20registration%20policy.md)
      
 3. Module 03 - Implement Access Management for Apps
    * 17 - Defender for Cloud Apps application discovery and enforcing restrictions
