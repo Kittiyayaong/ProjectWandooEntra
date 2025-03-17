@@ -1,4 +1,4 @@
-# Module 03 - Implement Access Management for Apps
+# Module 04 - Implement Access Management for Apps
 ## 01. Defender for Cloud Apps application discovery and enforcing restrictions
 
 ### 시나리오 
