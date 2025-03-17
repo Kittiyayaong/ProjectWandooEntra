@@ -1,5 +1,5 @@
 # Module 02 - Implement an Authentication and Access Management Solution
-## 01. Enable multi-factor authentication
+## 01-a. Enable multi-factor authentication
 
 ### 시나리오 
 조직의 보안을 개선하기 위해 Microsoft Entra ID에 대한 다중 인증을 활성화가 필요합니다. 
