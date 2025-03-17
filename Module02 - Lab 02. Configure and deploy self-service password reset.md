@@ -14,10 +14,13 @@ SSPR 구성이 예상대로 작동하는지 확인하려면 먼저 제한된 사
 ![image](https://github.com/user-attachments/assets/d01535b7-24c3-4de6-bfb7-59c55d6a01fd)
 
 3. Create
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/5fa66ff9-1b3b-48a1-aa3a-0a1ebbc39f48)
 
 * Task 2 - Enable SSPR for you test group
 
 1. Entra admin center > Identity > Protection > Password reset > Self sevice password reset enabled (Selected로 설정) 
 2. Select group에 Task 1에서 만든 그룹 할당
-3. 설정 완료  
+3. 1번의 'password reset'으로 돌아가서 'Authentication method'클릭
+4. 이 디렉토리의 사용자가 비밀번호를 재설정하기 위해 필요한 대체 식별 방법의 수를 정의합니다. 설정은 2로 진행합니다. 
+![image](https://github.com/user-attachments/assets/a98feb01-6bdd-4891-8f10-d5b303b04fed)
+5. 설정 완료 
