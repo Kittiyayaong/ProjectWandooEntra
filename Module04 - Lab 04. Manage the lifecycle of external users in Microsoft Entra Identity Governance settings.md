@@ -14,3 +14,5 @@
 * Block external user from signing in to this directory: yes (외부 사용자가 액세스 패키지에 대한 마지막 할당을 잃었을 때, 이 디렉토리에 로그인하지 못하도록 차단)
 * Remove external: yes (외부 사용자가 액세스 패키지에 대한 마지막 할당을 잃게 되면, 이 디렉토리에서 게스트 사용자 계정을 제거)
 * Number of days before removing external user from this directory: 0 (게스트 사용자 계정이 액세스 패키지에 대한 마지막 할당을 잃는 즉시 삭제하려면 이 디렉토리에서 외부 사용자를 제거하기 며칠 전의 날짜를 0으로 설정합니다.)
+
+3. 설정 완료 
