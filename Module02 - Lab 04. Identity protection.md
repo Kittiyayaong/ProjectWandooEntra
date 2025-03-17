@@ -2,7 +2,7 @@
 ## 04. Identity protection (Enable sign in and user risk policies)
 
 ### Lab 설명
-1. Identity Protection
+1. Identity Protection 
 Microsoft Entra ID Protection은 조직이 ID 기반 위험을 검색, 조사 및 수정하는 데 도움이 됩니다. 이러한 위험을 조건부 액세스와 같은 도구로 전달하여 액세스 결정을 내리거나 추가 조사 및 상관 관계를 위해 SIEM(보안 정보 및 이벤트 관리) 도구로 전송할 수 있습니다.
 
 2. 주요 기능 및 목적
@@ -10,7 +10,14 @@ Microsoft Entra ID Protection은 조직이 ID 기반 위험을 검색, 조사 �
 * 위험 조사: 탐지된 모든 위험은 보고서에 기록되며, 관리자는 이를 통해 위험을 조사하고 조치를 취할 수 있습니다. 주요 보고서에는 위험 탐지, 위험한 로그인, 위험한 사용자가 포함됩니다
 * 위험 완화: 위험 기반 조건부 액세스 정책을 통해 사용자가 강력한 인증 방법을 제공하거나 다중 인증을 수행하거나 안전한 비밀번호 재설정을 수행하도록 요구할 수 있습니다. 사용자가 이러한 액세스 제어를 성공적으로 완료하면 위험이 자동으로 완화됩니다
 
-3. 관련 링크
+3. 위험 정책 구성 및 사용
+
+Microsoft Entra 조건부 액세스에는 두 가지 형식의 위험 정책을 설정할 수 있습니다. 다음 정책을 사용하여 위험이 감지될 때 사용자가 자체 수정할 수 있도록 위험에 대한 응답을 자동화할 수 있습니다.
+
+* 사용자 위험 정책
+* 로그인 위험 정책
+
+4. 관련 링크
 [ID protection](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id-protection)
 
 #### Exercise 1 - Enable User risk policy
