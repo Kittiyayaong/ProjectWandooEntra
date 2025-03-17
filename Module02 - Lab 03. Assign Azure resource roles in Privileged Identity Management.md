@@ -10,6 +10,9 @@ Microsoft Entra Privileged Identity Management(PIM)는 내장된 Azure 리소스
 1. Entra admin > Identity governance > Privileged Identity Management > Azure resource
 2. 해당되는 management group / Subscription / Resource group / Resource 선택 후 Manage resource 클릭
 3. Manage > Roles로 > Add assignment 클릭
+
+![image](https://github.com/user-attachments/assets/e62737d8-d65d-4681-8920-c18d2da2824e)
+
 4. 'API Management Service Contributor' or 'Role based access control Administrator' 선택
 5. Member 추가 후 next
 6. Assignment type은 Eligible모드로 진행
