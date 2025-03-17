@@ -1,8 +1,21 @@
 # Module 03 - Implement Access Management for Apps
 ## 05. Configure Privileged Identity Management for Microsoft Entra roles
 
-### 시나리오 
-권한 있는 역할 관리자는 적격 역할 할당을 활성화하는 사용자의 경험을 변경하는 등 Microsoft Entra 조직에서 권한 있는 신원 관리(PIM)를 사용자 지정할 수 있습니다. PIM 구성에 익숙해야 합니다.
+### Lab 설명 
+
+1. PIM(Privileged Identity Managemend) 
+Microsoft Entra Privileged Identity Management (PIM)**은 조직 내 중요한 리소스에 대한 접근을 관리, 제어 및 모니터링할 수 있는 서비스입니다. 이 서비스는 Microsoft Entra ID, Azure, Microsoft 365, Microsoft Intune과 같은 다양한 Microsoft 온라인 서비스의 리소스를 포함합니다.
+
+2. 주요 기능 및 목적
+* 역할 활성화: PIM은 시간 기반 및 승인 기반 역할 활성화를 제공하여 과도하거나 불필요한 접근 권한의 위험을 완화합니다.
+* 다중 인증 요구: 역할을 활성화하기 위해 다중 인증을 요구할 수 있습니다.
+* 접근 검토: 사용자가 여전히 역할이 필요한지 확인하기 위해 접근 검토를 수행할 수 있습니다.
+* 감사 기록 다운로드: 내부 또는 외부 감사 목적으로 감사 기록을 다운로드할 수 있습니다.
+
+3. 사용 사례
+* Just-in-Time (JIT) 접근: 사용자가 필요할 때만 접근 권한을 활성화하여 보안을 강화합니다.
+* 역할 할당: 특정 기간 동안 리소스에 대한 접근 권한을 할당할 수 있습니다.
+* 승인 요구: 역할을 활성화하기 위해 승인을 요구할 수 있습니다.
 
 #### Exercise 1 - Configure Microsoft Entra role settings
 * Task 1 - Open role settings
