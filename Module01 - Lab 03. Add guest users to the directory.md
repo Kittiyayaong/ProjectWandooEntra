@@ -2,7 +2,7 @@
 ## 03. Add guest users to the directory 
 
 ### 시나리오 
-귀하의 회사는 많은 공급업체와 협력하고 있으며, 해당 공급업체의 계정을 사내 디렉토리에 게스트로 추가가 필요합니다. 
+고객사A 많은 공급업체와 협력하고 있으며, 해당 공급업체의 계정을 사내 디렉토리에 게스트로 추가가 필요합니다. 
 
 #### Exercise 1 - Add guest users to the directory
 * Task - Add the guest user
