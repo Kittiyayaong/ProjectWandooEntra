@@ -16,6 +16,7 @@
 
 #### Exercise 2 - Assign the application admin role and create an app
 * Task 1 - Assign a role to a user
+  
 Microsoft Entra ID를 사용하면 권한이 적은 역할로 ID 작업을 관리할 수 있는 제한된 관리자를 지정할 수 있습니다. 관리자는 사용자 추가 또는 변경, 관리 역할 할당, 사용자 비밀번호 재설정, 사용자 라이선스 관리, 도메인 이름 관리 등의 목적으로 할당될 수 있습니다.
 
 1. https://entra.microsoft.com > Identity > Users > All Users > Task 1번에서 생성한 user 클릭 > Assigned roles 클릭
