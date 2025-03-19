@@ -1,12 +1,15 @@
 # ProjectWandooEntra
-## Hands-on Lab 개요
+
+## :loudspeaker: Hands-on Lab Introduction
 본 실습 과정은 한국 마이크로소프트와 파트너의 기술 협력 프로그램 중 하나인 "Project Wandoo"의 Entra 솔루션 실습 과정입니다. 
 Entra P2 라이센스 feature를 기반으로 작성되었습니다. 
 
 ![image](https://github.com/user-attachments/assets/17ea424d-f462-45b6-bc1b-960584425fb7)
 
-
-## 실습 순서 
+## :thinking: 사전 요구 사항 (필요 도구)
+* Entra ID P2 License
+  
+## :test_tube: 실습 순서
 1. Module 01 - Implement an Identity Management Solution
    * [01 - Manage User Roles](https://github.com/Kittiyayaong/ProjectWandooEntra/blob/main/Module01%20-%20Lab%2001.%20Manage%20user%20roles.md)
    * [02 - Assigning licenses using group membership](https://github.com/Kittiyayaong/ProjectWandooEntra/blob/main/Module01%20-%20Lab%2002.%20Assigning%20licenses%20using%20group%20membership.md)
