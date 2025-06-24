@@ -5,8 +5,19 @@
 1. Identity Protection 
 Microsoft Entra의 Identity Protection은 머신 러닝 기반 위험 감지를 통해 사용자 로그인 및 사용자 자체를 분석하고, 위험이 탐지되었을 때 자동으로 조치를 취하도록 구성할 수 있는 보안 기능입니다. 사용자 위험(User Risk)과 로그인 위험(Sign-in Risk)을 기준으로 조건부 액세스를 설정하여 위협에 선제 대응할 수 있습니다.
 
-> ⭐️ Tips. 관련 링크
-[ID protection](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id-protection)
+> ⭐️ Tips. Identity Protection Policies 비교
+>
+| 항목           | User Risk Policy (Task 1)     | Sign-in Risk Policy (Task 2) |
+| -------------- | ----------------------------- | ----------------------------- |
+| **보호 대상**    | 사용자 계정 자체                      | 로그인 세션                        |
+| **위험 판단 기준** | 계정 유출, 비정상 행위, 다크웹 노출           | 로그인 위치, 디바이스, IP 등            |
+| **조치 방법**    | 비밀번호 변경 요구                     | MFA 요구 / 차단                     |
+| **사용 시점**    | 계정 자체가 해킹 위험 시                  | 로그인할 때 위험 감지되면                |
+| **예시**        | 비밀번호가 유출된 것으로 탐지됨              | 중국에서 로그인 시도                    |
+
+
+> **User Risk Policy**는 계정 자체의 보안 상태에 기반하여,  
+> **Sign-in Risk Policy**는 로그인 행위의 이상징후에 기반하여 각각 대응합니다.
 
 ---
 
