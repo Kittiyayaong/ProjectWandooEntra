@@ -124,15 +124,22 @@ Microsoft Entra ID 내 **보안 그룹**, **Microsoft 365 그룹**, 그리고 **
 
   <img width="720" alt="image" src="https://github.com/user-attachments/assets/a5d34f77-df4f-476e-aa66-26b25708f334" />
 
-4. Click the **Add Dynamic query** 
+4. Click the **Add Dynamic query** and click the **edit** 
 
  ```powershell
 user.objectId -ne null
  ```
 
-![image](https://github.com/user-attachments/assets/b0c9f755-9e7e-4d25-b1ce-db16c8ffaacb)
+  <img width="1181" alt="image" src="https://github.com/user-attachments/assets/b7d3e10e-8f3a-4a72-b161-0a4b767acf95" />
+  <img width="1181" alt="image" src="https://github.com/user-attachments/assets/af74e667-ac8a-4e72-b71d-ae8ad778be3d" />
 
-5. save 후 create로 설정 완료 
+> ⭐️ **Tips**. user.objectId -ne null: 이 식은 모든 사용자를 포함시킴
+
+5. Click the **save** 
+6. Click the **Create**
+
+   <img width="1181" alt="image" src="https://github.com/user-attachments/assets/0521ba7a-6b93-4947-9d5a-1bb19ba61587" />
+
 
 * Task 2. Verify the members have been added
   
