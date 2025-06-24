@@ -115,3 +115,5 @@
 
 
 3. 이제 선택한 사용자와 애플리케이션에 대해 MFA가 활성화되었습니다. 이후, 게스트가 해당 앱에 로그인하려고 할 때 MFA에 등록하라는 메시지가 표시됩니다.
+
+### 🔗 [다음 Lab으로 이동하기 »](https://github.com/Kittiyayaong/ProjectWandooEntra/blob/main/Module02%20-%20Lab%2001-b.%20Configure%20MFA%20to%20be%20required%20for%20login.md)
