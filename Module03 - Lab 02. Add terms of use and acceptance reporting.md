@@ -30,3 +30,5 @@ Microsoft Entra에서 **Terms of Use(ToU)** 정책을 설정하고, 사용자 �
    * Require users to consent on every device: Off (최종 사용자가 액세스하는 모든 디바이스에서 사용 약관을 수락하도록 요구하려면 사용자가 모든 디바이스에 동의하도록 설정/ 활성화 시 추가 app 설치 필요할 수 있음) 
    * Expire consents: On (일정에 대한 사용약관동의 만료)
 3. 설정 완료
+
+### 🔗 [다음 Lab으로 이동하기 »](https://github.com/Kittiyayaong/ProjectWandooEntra/blob/main/Module03%20-%20Lab%2003.%20Manage%20the%20lifecycle%20of%20external%20users%20in%20Microsoft%20Entra%20Identity%20Governance%20settings.md)
