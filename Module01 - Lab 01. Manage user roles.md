@@ -20,6 +20,10 @@
 Microsoft Entra ID를 사용하면 권한이 적은 역할로 ID 작업을 관리할 수 있는 제한된 관리자를 지정할 수 있습니다. 관리자는 사용자 추가 또는 변경, 관리 역할 할당, 사용자 비밀번호 재설정, 사용자 라이선스 관리, 도메인 이름 관리 등의 목적으로 할당될 수 있습니다.
 
 1. https://entra.microsoft.com > Identity > Users > All Users > Task 1번에서 생성한 user 클릭 > Assigned roles 클릭
+   <img width="1342" alt="스크린샷 2025-06-24 오전 9 36 16" src="https://github.com/user-attachments/assets/46176751-311e-48f9-8560-0c9889918beb" />
+   <img width="1133" alt="스크린샷 2025-06-24 오전 9 36 40" src="https://github.com/user-attachments/assets/f5fc3c90-9c82-42f9-a3db-29c4eb3260c1" />
+   <img width="801" alt="스크린샷 2025-06-24 오전 9 36 52" src="https://github.com/user-attachments/assets/5ceb3e38-1f6f-4d2c-8f37-d974c396f416" />
+
 2. 'Application administrator' role 확인 후 설정
 ![image](https://github.com/user-attachments/assets/5880cbcd-8a0d-42af-8cf3-40fe90e9b23c)
 
