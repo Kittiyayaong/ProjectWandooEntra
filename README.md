@@ -8,7 +8,11 @@ Entra P2 라이센스 feature를 기반으로 작성되었습니다.
 
 ## :thinking: 사전 요구 사항 (필요 도구)
 * Entra ID P2 License
-  
+
+## :thinking:
+* 모든 랩은 본인 user name 번호를 붙여 진행합니다.
+* 예로, user1-1가 wandoo-user1 계정 생성 시에, **wandoo-user11**로 생성합니다.
+   
 ## :test_tube: 실습 순서
 1. Module 01 - Implement an Identity Management Solution
    * [01 - Manage User Roles](https://github.com/Kittiyayaong/ProjectWandooEntra/blob/main/Module01%20-%20Lab%2001.%20Manage%20user%20roles.md)
