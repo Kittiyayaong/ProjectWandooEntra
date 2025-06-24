@@ -69,3 +69,5 @@ Microsoft Entra ID Protection의 User Risk Policy는 조직이 사용자 계정�
 
 > ⭐️ Tips. Policy enforcement: Enabled / Disabled 설정?
 > Policy enforcement는 해당 위험 정책을 실제로 적용할지 여부를 정하는 스위치입니다. Enabled로 설정하면 해당 정책이 모든 지정된 사용자에게 강제 적용됩니다. Disabled로 두면 설정은 저장되지만 정책은 실제로 작동하지 않음 (테스트용 등)
+
+### 🔗 [다음 Lab으로 이동하기 »](https://github.com/Kittiyayaong/ProjectWandooEntra/blob/main/Module02%20-%20Lab%2005.%20Configure%20an%20Multifactor%20authentication%20registration%20policy.md)
