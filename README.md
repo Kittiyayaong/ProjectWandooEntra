@@ -10,8 +10,8 @@ Entra P2 라이센스 feature를 기반으로 작성되었습니다.
 * Entra ID P2 License
 
 ## :thinking: 랩 활용방법 
-* 모든 랩은 본인 user name 번호를 붙여 진행합니다.
-* 예로, user1-1가 wandoo-user1 계정 생성 시에, **wandoo-user11**로 생성합니다.
+* 모든 랩은 본인 User name을 붙여 생성합니다. 
+* 예로, Adele Vance이 wandoo-user1 계정 생성 시에, **wandoo-Adele-user**로 생성합니다.
    
 ## :test_tube: 실습 순서
 1. Module 01 - Implement an Identity Management Solution
