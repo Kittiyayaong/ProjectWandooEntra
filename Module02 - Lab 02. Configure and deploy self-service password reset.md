@@ -29,6 +29,7 @@ SSPR 구성이 예상대로 작동하는지 확인하려면 먼저 제한된 사
 3. SSPR용 그룹 Create
   <img width="1173" alt="image" src="https://github.com/user-attachments/assets/e11c0dbc-9fe6-4e4c-90c5-66037bf1fe72" />
 
+---
 
 * Task 2 - Enable SSPR for you test group
 
