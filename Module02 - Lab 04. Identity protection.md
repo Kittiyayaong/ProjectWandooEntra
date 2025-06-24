@@ -33,7 +33,7 @@ Microsoft Entra ID Protection의 User Risk Policy는 조직이 사용자 계정�
   
   <img width="949" alt="스크린샷 2025-06-24 오후 12 46 52" src="https://github.com/user-attachments/assets/fae2f441-4781-4762-aff5-63173e832105" />
 
-3. 설정 완료
+3. **Save**하여 설정 완료
 
 ---
 
@@ -44,9 +44,14 @@ Microsoft Entra ID Protection의 User Risk Policy는 조직이 사용자 계정�
 
 ---
 
-1. task 1과 동일한 위치에서 'sign-in risk policy'로 이동
-2. 사용자 위험 정책과 마찬가지로 로그인 위험 정책도 사용자와 그룹에게 할당할 수 있으며, 사용자를 정책에서 제외할 수 있습니다.
-3. Sign-in risk: High
-4. Control: Allow access > Require multifactor authentication
-5. Policy Enforcement: Enabled
-6. 설정 완료 
+1. Entra admin > Protection > Identity Protection > sign-in risk policy로 이동
+
+> ⭐️ Tips. 사용자 위험 정책과 마찬가지로 로그인 위험 정책도 사용자와 그룹에게 할당할 수 있으며, 사용자를 정책에서 제외할 수 있습니다.
+
+2. Sign-in risk: High
+3. Control: Allow access > Require multifactor authentication
+4. Policy Enforcement: Enabled
+
+  <img width="1180" alt="image" src="https://github.com/user-attachments/assets/647c0dc1-6e34-47f2-b998-fa7945232301" />
+
+5. **Save**하여 설정 완료
