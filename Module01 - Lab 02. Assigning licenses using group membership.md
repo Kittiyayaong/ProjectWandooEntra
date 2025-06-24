@@ -150,3 +150,5 @@ user.objectId -ne null
   <img width="1432" alt="스크린샷 2025-06-24 오전 10 36 44" src="https://github.com/user-attachments/assets/9faecde4-79fa-46ac-8253-4ec7f02bbd56" />
 
 
+
+### 🔗 [다음 Lab으로 이동하기 »](https://github.com/Kittiyayaong/ProjectWandooEntra/blob/main/Module01%20-%20Lab%2003.%20Add%20guest%20users%20to%20the%20directory.md)
