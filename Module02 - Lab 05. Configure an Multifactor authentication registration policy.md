@@ -40,5 +40,6 @@ Registration campaign은 아직 등록하지 않은 사용자에게 MFA(다단�
   ![image](https://github.com/user-attachments/assets/56323738-3516-4ce4-bcc2-aef93e8f1373)
 
 
-### 🔗 Module 02 Finished! 
+### 🔗 Module 02 완료 
+
 
