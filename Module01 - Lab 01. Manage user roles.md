@@ -91,3 +91,6 @@ Microsoft Entra ID를 사용하면 권한이 적은 역할로 ID 작업을 관�
 6. 설정 완료
  
   <img width="1385" alt="스크린샷 2025-06-24 오전 9 50 17" src="https://github.com/user-attachments/assets/52e5a81d-bdad-4bc3-b58c-f5e7168427dd" />
+
+
+### 🔗 [다음 Lab으로 이동하기 »](https://github.com/Kittiyayaong/ProjectWandooEntra/blob/main/Module01%20-%20Lab%2002.%20Assigning%20licenses%20using%20group%20membership.md)
