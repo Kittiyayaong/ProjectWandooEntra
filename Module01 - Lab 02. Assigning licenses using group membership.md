@@ -1,32 +1,64 @@
 # Module 01 - Implement an Identity Management Solution 
 ## 02. Assigning licenses using group membership
 
-### 시나리오 
-조직에서 Microsoft Entra ID의 보안 그룹을 사용하여 라이선스를 관리하기로 결정했습니다. 새 보안 그룹을 구성하고 해당 그룹에 라이선스를 할당하고 그룹 회원 라이선스가 업데이트되었는지 확인해야 합니다.
+### 🔍 실습 목표
+Microsoft Entra ID 내 **보안 그룹**, **Microsoft 365 그룹**, 그리고 **동적 그룹(Dynamic Group)** 을 생성하고, 사용자 라이선스를 그룹 기반으로 관리하는 방법을 학습합니다.
 
+### ✅ 실습에서 배울 내용 요약
+
+| 항목                        | 설명                                                                 |
+|---------------------------|----------------------------------------------------------------------|
+| **Security Group**        | 리소스 접근 제어 및 라이선스 부여 목적. Assigned 멤버 방식 사용                      |
+| **Microsoft 365 Group**   | Teams, Outlook 등 협업 도구와 통합. 협업 기능 중심 그룹                              |
+| **Dynamic Group**         | 사용자 속성 기반 자동 멤버 구성. 유지 관리 자동화 가능                              |
+| **Role-Assignable 설정**  | Security Group에 Microsoft Entra 역할 할당 가능 여부 설정 (한 번 설정 후 변경 불가)      |
+| **Membership Type**       | Assigned (수동 지정) 또는 Dynamic (조건 기반 자동 지정)                            |
+
+---
 #### Exercise 1 - Create a security group and add a user
 * Task: Create a security group in Microsoft Entra ID
+##### 목적  
+보안 그룹을 생성하고, 사용자에게 라이선스 할당 준비
 
+##### Step
 1. Browse to https://entra.microsoft.com.
-2. Identity > Goups > ALl Goups > New group
+2. Identity > Goups > All Goups > New group
+ 
+   <img width="817" alt="스크린샷 2025-06-24 오전 9 56 15" src="https://github.com/user-attachments/assets/2c70f684-a9a9-4606-a36f-30c5b20f68e9" />
+
 3. Create a group using the following information:
 
-![image](https://github.com/user-attachments/assets/4f0052b6-5c49-4edf-a133-141fed91c9e6)
+   | 항목                          | 값                                         |
+   |-----------------------------|--------------------------------------------|
+   | Group type                  | Security                                   |
+   | Group name                  | IT Lab Administrators                      |
+   | Description                 | Administrators that manage the IT Lab      |
+   | Microsoft Entra roles 설정 | **No** (역할 할당 불가 그룹으로 설정)       |
+   | Membership type             | Assigned                                   |
+   | Member                      | `Wandoo-user1` 추가                        |
 
-+ Group type: Security
-+ Group name: IT Lab Administrators
-+ Group Description: Administrators that manage the IT Lab
-+ Membership type: Assigned
-+ Member: task1에서 생성한 Wandoo-user1 추가 
 
-4. Select the No members selected text under Members.
-5. Select Delia Dennis from the list of users.
-6. Select the Select button.
+  <img width="704" alt="image" src="https://github.com/user-attachments/assets/8efac9eb-1c42-45ab-8a61-8dee4b29d5c4" />
+
+
+5. Select the Create button
+
+> ✅ **Tips** 역할 할당 가능 그룹이란?
+
+- **Yes 선택 시**: 해당 그룹은 Microsoft Entra 역할을 할당할 수 있는 **역할 할당 가능 그룹**이 됨
+- **주의**: 이 설정은 생성 후 변경 불가
+- 라이선스나 리소스 제어 용도의 그룹은 "No"로 설정해야 안전
+
+| 항목                        | 일반 그룹       | 역할 할당 가능 그룹  |
+|---------------------------|----------------|---------------------|
+| Microsoft Entra 역할 할당 | ❌ 불가         | ✅ 가능               |
+| 보안 정책                 | 일반 정책       | 강화된 정책 적용       |
+| 설정 변경 가능 여부       | 대부분 가능      | ❌ 변경 불가 (역할 설정) |
+
+---
 
 #### Exercise 2 - Create a Microsoft 365 group in Microsoft Entra ID
 * Task: Create the group
-
-  Microsoft Entra 관리자로서의 업무 중 하나는 다양한 유형의 그룹을 만드는 것입니다. 조직의 영업 부서를 위해 새로운 Microsoft 365 그룹을 만들어야 합니다.
 
 1. Browse to https://entra.microsoft.com.
 2. Identity > select Groups > All Groups > New group.
