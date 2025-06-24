@@ -19,8 +19,6 @@
 * Task - Add the guest user
 
 1. https://entra.microsoft.com > Identity > users > All users > New user > invite external user 
- 
-  ![Uploading 스크린샷 2025-06-24 오전 10.52.06.png…]()
 
 ---
 
