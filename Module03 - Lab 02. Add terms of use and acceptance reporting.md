@@ -31,4 +31,4 @@ Microsoft Entra에서 **Terms of Use(ToU)** 정책을 설정하고, 사용자 �
    * Expire consents: On (일정에 대한 사용약관동의 만료)
 3. 설정 완료
 
-### 🔗 [다음 Lab으로 이동하기 »](https://github.com/Kittiyayaong/ProjectWandooEntra/blob/main/Module03%20-%20Lab%2003.%20Manage%20the%20lifecycle%20of%20external%20users%20in%20Microsoft%20Entra%20Identity%20Governance%20settings.md)
+### 🔗 [다음 Lab으로 이동하기 »](https://github.com/Kittiyayaong/ProjectWandooEntra/blob/main/Module03%20-%20Lab%2004.%20Creating%20Access%20Reviews%20for%20Internal%20and%20External%20Users.md)
