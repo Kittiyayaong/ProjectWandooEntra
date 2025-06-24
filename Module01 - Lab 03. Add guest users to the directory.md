@@ -72,4 +72,5 @@
 
 5. **Succeededㅇ**로 변경되며 설정 완료 
 
- <img width="263" alt="스크린샷 2025-06-24 오전 11 53 22" src="https://github.com/user-attachments/assets/0c2bf591-68c0-4356-8dd7-0d08736b27bc" />
+  <img width="263" alt="스크린샷 2025-06-24 오전 11 53 22" src="https://github.com/user-attachments/assets/0c2bf591-68c0-4356-8dd7-0d08736b27bc" />
+
