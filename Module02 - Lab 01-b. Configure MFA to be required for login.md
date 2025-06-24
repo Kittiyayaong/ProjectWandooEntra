@@ -17,3 +17,4 @@
 4. 설정 대상인 user 클릭 후 enable MFA 클릭 > 팝업 enable 클릭
 5. 설정 완료
 
+### 🔗 [다음 Lab으로 이동하기 »](https://github.com/Kittiyayaong/ProjectWandooEntra/blob/main/Module02%20-%20Lab%2002.%20Configure%20and%20deploy%20self-service%20password%20reset.md)
