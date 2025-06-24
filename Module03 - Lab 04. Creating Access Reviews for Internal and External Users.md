@@ -1,4 +1,4 @@
-<img width="1178" alt="스크린샷 2025-06-24 오후 1 49 59" src="https://github.com/user-attachments/assets/c95b6960-e552-42f3-91c7-b2fc56bbca2d" /># Module 03 - Implement Access Management for Apps
+# Module 03 - Implement Access Management for Apps
 ## 04. Creating Access Reviews for Internal and External Users
 
 ### Lab 설명 
@@ -41,3 +41,7 @@ Access Reviews는 Microsoft Entra ID Governance의 핵심 기능 중 하나로, 
   <img width="1178" alt="스크린샷 2025-06-24 오후 1 49 59" src="https://github.com/user-attachments/assets/316ab1e4-9268-437b-b2a2-43339e7c8e82" />
 
   5. 설정완료
+
+
+
+### 🔗 [다음 Lab으로 이동하기 »](https://github.com/Kittiyayaong/ProjectWandooEntra/blob/main/Module03%20-%20Lab%2005.%20Configure%20Privileged%20Identity%20Management%20for%20Microsoft%20Entra%20roles.md)
