@@ -1,3 +1,5 @@
+# Wandoo-KT 에서는 제외합니다. 
+
 # Module 03 - Implement Access Management for Apps
 ## 03. Manage the lifecycle of external users in Microsoft Entra Identity Governance settings
 
