@@ -3,7 +3,7 @@
 
 ### Lab 설명 
 
-1. Access REview란? 
+1. Access Review란? 
 
 Microsoft Entra의 일부인 Microsoft Entra ID의 액세스 검토를 통해 조직은 그룹 멤버 자격, 엔터프라이즈 애플리케이션에 대한 액세스 및 역할 할당을 효율적으로 관리할 수 있습니다. 적절한 사용자만 계속 액세스할 수 있도록 사용자의 액세스를 정기적으로 검토할 수 있습니다.
 
