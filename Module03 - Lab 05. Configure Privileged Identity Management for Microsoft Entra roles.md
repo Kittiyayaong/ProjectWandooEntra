@@ -17,7 +17,7 @@ Microsoft Entra Privileged Identity Management (PIM)**은 조직 내 중요한 �
 * 역할 할당: 특정 기간 동안 리소스에 대한 접근 권한을 할당할 수 있습니다.
 * 승인 요구: 역할을 활성화하기 위해 승인을 요구할 수 있습니다.
 
-#### Exercise 1 - Configure Microsoft Entra role settings
+## ✅  Exercise 1 - Configure Microsoft Entra role settings
 * Task 1 - Open role settings
 
 1. Entra admin > Identity governance > Privileged identity Management > Microsoft Entra roles > Setting
