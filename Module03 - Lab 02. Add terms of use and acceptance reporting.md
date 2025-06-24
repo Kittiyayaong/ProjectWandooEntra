@@ -1,8 +1,17 @@
 # Module 03 - Implement Access Management for Apps
 ## 02. Add terms of use and acceptance reporting
 
-### 시나리오 
-Microsoft Entra 이용 약관 정책은 조직이 최종 사용자에게 정보를 제공하는 데 사용할 수 있는 간단한 방법을 제공합니다. 이 프레젠테이션을 통해 사용자는 법적 또는 규정 준수 요구 사항에 대한 관련 고지 사항을 확인할 수 있습니다. 이 문서에서는 이용 약관(ToU) 정책을 시작하는 방법을 설명합니다.
+### Lab 설명
+Microsoft Entra에서 **Terms of Use(ToU)** 정책을 설정하고, 사용자 동의 상태를 추적하는 방법을 익힙니다. 이는 **법적 고지, 보안 정책 동의, 규정 준수 목적**으로 사용됩니다.
+
+> ⭐️핵심 구성 및 설명
+> 
+> - **Require users to expand**: 사용자가 동의 전에 내용을 반드시 펼쳐서 확인하도록 강제
+> - **Require users to consent on every device**: 디바이스별 동의 필요 설정
+> - **Expire consents / Duration before re-acceptance**: 일정 주기마다 재동의 유도
+> - **CA 정책과 연동**: ToU 정책은 반드시 Conditional Access 정책을 통해 활성화되어야 적용됨
+
+---
 
 #### Exercise 1 - Set up a Term of Use and test them
 * Task 1 - Add terms of use (참고 - Azure 포털에서 사용할 이용 약관입니다.)
