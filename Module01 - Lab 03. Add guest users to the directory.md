@@ -4,7 +4,13 @@
 ### 시나리오 
 고객사A 많은 공급업체와 협력하고 있으며, 해당 공급업체의 계정을 사내 디렉토리에 게스트로 추가가 필요합니다. 
 
-#### Exercise 1 - Add guest users to the directory
+#### Microsoft Entra External ID
+- 외부 사용자를 조직 리소스에 안전하게 초대하고 관리할 수 있도록 지원
+- B2B(비즈니스 간) 협업을 위해 설계
+- 조직 외부 사용자(예: 파트너, 공급업체, 프리랜서 등)를 Entra ID 테넌트에 "게스트"로 초대 가능
+
+## Exercise 1 - Add guest users to the directory
+
 * Task - Add the guest user
 
 1. https://entra.microsoft.com > Identity > users > All users > New user > invite external user 
