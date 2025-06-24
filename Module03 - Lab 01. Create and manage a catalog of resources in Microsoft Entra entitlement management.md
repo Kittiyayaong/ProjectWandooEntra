@@ -83,3 +83,5 @@
 2. **Wandoo-user1**을 선택 후 설정 완료
 
   <img width="1182" alt="image" src="https://github.com/user-attachments/assets/4da5b7f0-6147-40fe-b29b-f649ed19e57b" />
+
+### 🔗 [다음 Lab으로 이동하기 »](https://github.com/Kittiyayaong/ProjectWandooEntra/blob/main/Module03%20-%20Lab%2002.%20Add%20terms%20of%20use%20and%20acceptance%20reporting.md)
