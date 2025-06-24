@@ -90,4 +90,4 @@ Microsoft Entra ID를 사용하면 권한이 적은 역할로 ID 작업을 관�
 
 6. 설정 완료
  
-   <img width="571" alt="스크린샷 2025-06-24 오전 9 45 16" src="https://github.com/user-attachments/assets/b049ddfc-df6d-4030-a7f1-aa4718be8eab" />
+  <img width="1385" alt="스크린샷 2025-06-24 오전 9 50 17" src="https://github.com/user-attachments/assets/52e5a81d-bdad-4bc3-b58c-f5e7168427dd" />
