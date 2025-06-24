@@ -85,6 +85,9 @@ Microsoft Entra ID를 사용하면 권한이 적은 역할로 ID 작업을 관�
 > 📌 참고: 보안 원칙에 따라 **가능하면 Eligible + 기간 제한** 방식이 권장되며, Global Administrator 등 고위험 역할은 최소 인원만 Active로 유지해야 합니다.
 
 5. Assign
+   
    <img width="571" alt="스크린샷 2025-06-24 오전 9 45 16" src="https://github.com/user-attachments/assets/a51c81cd-16ea-4fc8-a643-790b7174db32" />
 
-7. 설정 완료 
+6. 설정 완료
+ 
+   <img width="571" alt="스크린샷 2025-06-24 오전 9 45 16" src="https://github.com/user-attachments/assets/b049ddfc-df6d-4030-a7f1-aa4718be8eab" />
