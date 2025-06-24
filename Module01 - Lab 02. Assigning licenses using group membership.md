@@ -144,7 +144,9 @@ user.objectId -ne null
 * Task 2. Verify the members have been added
   
 1. Entra console > Identity > Goups > All group > Wandoo-dynamic 클릭 > Member로 이동
-2. Wandoo-user1 선택 후 완료 
+2. List-up 된 사용자 확인 (최대 15분 소요) 
 
-![image](https://github.com/user-attachments/assets/5ddb4de6-eefd-4c4b-a69e-6f61531ce8c6)
+  <img width="1166" alt="스크린샷 2025-06-24 오전 10 36 52" src="https://github.com/user-attachments/assets/cc402638-6b92-43ff-949b-748a15d92d3f" />
+  <img width="1432" alt="스크린샷 2025-06-24 오전 10 36 44" src="https://github.com/user-attachments/assets/9faecde4-79fa-46ac-8253-4ec7f02bbd56" />
+
 
