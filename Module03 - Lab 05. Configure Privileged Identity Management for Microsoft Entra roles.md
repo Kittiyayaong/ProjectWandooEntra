@@ -34,7 +34,9 @@ Microsoft Entra Privileged Identity Management (PIM)**은 조직 내 중요한 �
 ![image](https://github.com/user-attachments/assets/284ed035-9a81-4aa5-ba22-881d0a791194)
 4. update 클릭 후 설정완료
 
-#### Exercise 2 - Use PIM to assign Microsoft Entra roles
+---
+
+## ✅ Exercise 2 - Use PIM to assign Microsoft Entra roles
 * Task 1 - Assign a role
 
 Microsoft Entra ID를 사용하면 글로벌 관리자가 영구적인 Microsoft Entra 관리자 역할 할당을 할 수 있습니다. 이러한 역할 할당은 Microsoft Entra 관리자 센터, Azure 포털 또는 PowerShell 명령을 사용하여 만들 수 있습니다.
