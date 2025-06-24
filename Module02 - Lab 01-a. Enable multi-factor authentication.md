@@ -67,8 +67,18 @@
 >   - 신뢰하는 디바이스에서는 MFA를 일정 기간 동안 생략할 수 있습니다.
 >   - 사용자가 MFA를 생략할 수 있는 일수 설정: `7`일 (기본값)
   
-> ⚠️ 권장: Conditional Access의 "sign-in frequency" 정책을 함께 설정해 신뢰 디바이스/로케이션에서의 세션 수명을 연장하세요.  
-> 특히 'Remember MFA on a trusted device' 사용 시, 지속 기간을 최소 90일 이상으로 설정하는 것이 좋습니다.
+> ⚠️ 권고
+>
+> Microsoft는 **Per-user MFA는 일반적인 MFA 구성 방식으로 사용하지 말 것**을 권고합니다. 대신 Conditional Access 기반의 MFA 정책을 전체 사용자에게 적용하고, 필요 시 특정 사용자에 대해 예외로 Per-user MFA를 설정합니다. SMS는 여전히 사용 가능하지만, 보안성 문제로 인해 점점 Authenticator 앱 및 FIDO2 키 기반으로 전환하는 추세입니다.
+>
+>
+| 항목                     | 권장 설정               | 출처 요약                                                                                               |
+|------------------------|------------------------|----------------------------------------------------------------------------------------------------------|
+| **App Password**       | ❌ 사용 비권장          | MFA 우회 가능성 존재 – [관련 문서](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-mfa-app-passwords) |
+| **인증 방식**           | ✅ Authenticator, FIDO2 권장 | SMS는 보안 취약 – [Authentication methods policy](https://learn.microsoft.com/en-us/entra/id-authentication/concept-authentication-methods) |
+| **조건부 액세스 기반 MFA** | ✅ 기본 권장 방식         | Per-user MFA는 예외 상황용 – [Conditional Access MFA 가이드](https://learn.microsoft.com/en-us/entra/identity/conditional-access/howto-conditional-access-policy-all-users-mfa) |
+| **Remember MFA 설정**  | 가능 시 90일 권장       | 사용자 경험 개선, 단 장기 사용 시 조건부 액세스 병행 필요 – [관련 문서](https://learn.microsoft.com/en-us/entra/id-authentication/howto-mfa-userdevicesettings) |
+
 
 자세한 내용: [Learn more about reauthentication prompts](https://learn.microsoft.com/en-us/entra/identity/conditional-access/howto-conditional-access-session-lifetime)
 
@@ -76,18 +86,32 @@
 
 * Task 2 - Setup conditional access rules for MFA 
 
-다음으로 네트워크의 특정 앱에 액세스하는 게스트 사용자에게 MFA를 적용하는 조건부 액세스 정책 규칙을 설정하는 방법을 살펴보겠습니다.
+조직의 보안을 강화하기 위해 조건부 액세스 정책을 통해 특정 사용자나 앱에 대해서만 MFA(Multi-Factor Authentication)를 적용할 수 있습니다. 특정 조건(예: 게스트 사용자, 특정 앱, 외부 위치)에서만 MFA를 요구하도록 설정 → 사용자 경험과 보안을 동시에 고려
+
 
 1. Entra admin center(Entra.microsoft.com) > Identity > Protection > conditional Access > New policy > Create new policy
-![image](https://github.com/user-attachments/assets/f87054fd-929b-4b4b-b942-91d1511b96d1)
 
-2. 설정값
-   * Name: Wandoo MFA Conditional Access
-   * User: wandoo-user1
-   * Target Resource: Resource(Cloud apps) > Select resources > select > office 365 선택
-   * Network: configure: yes > Any network or location
-   * Access control: Grant access > Require multifactor authentication / 하단에 require all the selected controls
-   * enable policy
-   * create로 설정 완료
-     
-3. 이제 선택한 사용자와 애플리케이션에 대해 MFA가 활성화되었습니다. 다음에 게스트가 해당 앱에 로그인하려고 할 때 MFA에 등록하라는 메시지가 표시됩니다.
+   ![image](https://github.com/user-attachments/assets/f87054fd-929b-4b4b-b942-91d1511b96d1)
+
+3. 설정값
+   
+| 항목                 | 값 및 설명                                                            |
+| ------------------ | ----------------------------------------------------------------- |
+| **Policy 이름**      | `Wandoo MFA Conditional Access`                                   |
+| **대상 사용자**         | `wandoo-user1`                                                    |
+| **대상 리소스**         | `Cloud apps > Office 365`                                         |
+| **네트워크 위치**        | `Any network or location`                                         |
+| **Access Control** | `Grant access > Require multi-factor authentication` + 하단 체크박스 필수 |
+| **정책 활성화**         | `Enable policy > On` → `Create`로 저장                               |
+
+
+> ⭐️ Tips. Conditional Access 기반 MFA가 필요한 이유
+>
+| 이유                    | 설명                                                        |
+| --------------------- | --------------------------------------------------------- |
+| **정밀 제어 가능**          | 모든 사용자에게 강제로 적용하지 않고, 조건별(M365 앱 접근, 외부 사용자 등)로 유연한 설정 가능 |
+| **Per-user MFA보다 우수** | 사용자 개별 설정 방식보다 정책 기반 관리가 일관되고 보안성 높음                      |
+| **보안 + 사용자 경험 고려**    | 업무용 내부 사용자에겐 덜 침해적이고, 외부 파트너에게는 강한 인증 요구 가능               |
+
+
+3. 이제 선택한 사용자와 애플리케이션에 대해 MFA가 활성화되었습니다. 이후, 게스트가 해당 앱에 로그인하려고 할 때 MFA에 등록하라는 메시지가 표시됩니다.
