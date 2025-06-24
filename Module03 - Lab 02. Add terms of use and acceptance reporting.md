@@ -13,7 +13,7 @@ Microsoft Entra에서 **Terms of Use(ToU)** 정책을 설정하고, 사용자 �
 
 ---
 
-#### Exercise 1 - Set up a Term of Use and test them
+## ✅ Exercise 1 - Set up a Term of Use and test them
 * Task 1 - Add terms of use (참고 - Azure 포털에서 사용할 이용 약관입니다.)
 
 1. Entra admin > Identity Governance > Entitlement Management > temrs of use > New terms
