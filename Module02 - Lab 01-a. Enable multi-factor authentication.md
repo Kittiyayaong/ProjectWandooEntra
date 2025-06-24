@@ -33,6 +33,7 @@
    <img width="1552" alt="image" src="https://github.com/user-attachments/assets/5f921b94-066c-440b-8a55-759dea1efc2c" />
 
 > ⭐️ Tips. Per-user Multifactor Authentication 설정
+> 
 | 기능 항목                           | 주요 목적               | 왜 필요한가?           |
 | ------------------------------- | ------------------- | ----------------- |
 | App Password                    | MFA 미지원 앱에 로그인 허용   | 유연성 제공, 업무 연속성 확보 |
