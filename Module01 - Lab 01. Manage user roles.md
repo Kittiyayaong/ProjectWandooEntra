@@ -4,7 +4,9 @@
 ### 시나리오 
 고객사A는 최근 애플리케이션 관리자로 업무를 수행할 새로운 직원을 채용했습니다. 새 사용자를 생성하고 적절한 역할을 할당해야 합니다.
 
-#### Exercise 1 - Create a new user and test their application admin rights
+---
+
+## ✅  Exercise 1 - Create a new user and test their application admin rights
 * Task 1 - Add a new user
   
 1. https://entra.microsoft.com > Identity > Users > All Users > New User > Create new user.
@@ -14,7 +16,9 @@
 3. 비밀번호 자동 생성 옵션(Auto-generate password)을 체크
 4. 생성 완료
 
-#### Exercise 2 - Assign the application admin role and create an app
+---
+
+## ✅  Exercise 2 - Assign the application admin role and create an app
 * Task 1 - Assign a role to a user
   
 Microsoft Entra ID를 사용하면 권한이 적은 역할로 ID 작업을 관리할 수 있는 제한된 관리자를 지정할 수 있습니다. 관리자는 사용자 추가 또는 변경, 관리 역할 할당, 사용자 비밀번호 재설정, 사용자 라이선스 관리, 도메인 이름 관리 등의 목적으로 할당될 수 있습니다.
@@ -55,7 +59,7 @@ Microsoft Entra ID를 사용하면 권한이 적은 역할로 ID 작업을 관�
 
 ---
 
-> ✅ **Tips** Permanently assigned (영구 할당)
+> ⭐️ **Tips** Permanently assigned (영구 할당)
 > 
 | 옵션 | 설명 |
 |------|------|
@@ -63,14 +67,14 @@ Microsoft Entra ID를 사용하면 권한이 적은 역할로 ID 작업을 관�
 | ⬜ 체크 해제 시 | 아래 `Assignment starts` / `Assignment ends`에서 역할의 시작일과 종료일을 수동으로 지정해야 합니다. |
 
 ---
-> ✅ **Tips** Maximum allowed assignment duration is permanent
+> ⭐️ **Tips** Maximum allowed assignment duration is permanent
 
 - 이 문구는 **해당 역할이 영구 할당을 허용하도록 정책이 설정**되어 있음을 의미합니다.
 - 만약 영구 할당이 **허용되지 않는 역할 또는 테넌트 정책**이라면, 최대 할당 기간이 표시됩니다 (예: 30일, 1년 등).
 
 ---
 
-> ✅ **Tips** 예시 시나리오
+> ⭐️ **Tips** 예시 시나리오
 
 - **Assignment type**: Active  
 - **Permanently assigned**: ✅  
@@ -82,7 +86,7 @@ Microsoft Entra ID를 사용하면 권한이 적은 역할로 ID 작업을 관�
 
 ---
 
-> 📌 참고: 보안 원칙에 따라 **가능하면 Eligible + 기간 제한** 방식이 권장되며, Global Administrator 등 고위험 역할은 최소 인원만 Active로 유지해야 합니다.
+> ⭐️ 참고: 보안 원칙에 따라 **가능하면 Eligible + 기간 제한** 방식이 권장되며, Global Administrator 등 고위험 역할은 최소 인원만 Active로 유지해야 합니다.
 
 5. Assign
    
