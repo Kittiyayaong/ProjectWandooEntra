@@ -4,17 +4,52 @@
 ### 🔍 실습 목표
 Microsoft Entra ID 내 **보안 그룹**, **Microsoft 365 그룹**, 그리고 **동적 그룹(Dynamic Group)** 을 생성하고, 사용자 라이선스를 그룹 기반으로 관리하는 방법을 학습합니다.
 
-### ✅ 실습에서 배울 내용 요약
+### ✅ Exercise 요약
 
-| 항목                        | 설명                                                                 |
-|---------------------------|----------------------------------------------------------------------|
-| **Security Group**        | 리소스 접근 제어 및 라이선스 부여 목적. Assigned 멤버 방식 사용                      |
-| **Microsoft 365 Group**   | Teams, Outlook 등 협업 도구와 통합. 협업 기능 중심 그룹                              |
-| **Dynamic Group**         | 사용자 속성 기반 자동 멤버 구성. 유지 관리 자동화 가능                              |
-| **Role-Assignable 설정**  | Security Group에 Microsoft Entra 역할 할당 가능 여부 설정 (한 번 설정 후 변경 불가)      |
-| **Membership Type**       | Assigned (수동 지정) 또는 Dynamic (조건 기반 자동 지정)                            |
+| 항목                | Exercise 1         | Exercise 2          | Exercise 3             |
+| ----------------- | ------------------ | ------------------- | ---------------------- |
+| 그룹 유형             | Security Group     | Microsoft 365 Group | Dynamic Security Group |
+| 주요 목적             | 라이선스 및 리소스 권한 관리   | Teams/Outlook 협업    | 조건 기반 자동 사용자 구성        |
+| 멤버십 방식            | Assigned (수동)      | Assigned (수동)       | Dynamic (자동)           |
+| 역할 할당 가능 여부 설정 포함 | 포함됨 (Yes/No 선택 가능) | 해당 없음               | 해당 없음                  |
 
 ---
+
+### 그룹 유형별 차이점 - Microsoft Entra ID 기준
+
+#### ✅ 그룹 유형 개요
+
+| 그룹 유형                  | 주요 사용 목적                     | 특징 및 실제 활용 방식 |
+|---------------------------|------------------------------------|----------------------|
+| **Security Group**        | 권한 제어 / 라이선스 관리          | - 앱/리소스 접근 권한 제어<br>- Intune 정책 대상 지정<br>- 라이선스 할당<br>- Azure RBAC 할당 가능 |
+| **Microsoft 365 Group**   | 협업 (Teams, Outlook 등)           | - Teams, Planner, SharePoint, Outlook 등 자동 연결<br>- 협업 공간 자동 생성 |
+| **Dynamic Group**         | 조건 기반 사용자 자동 분류         | - user.department, jobTitle 등 조건 설정<br>- 사용자 자동 포함/제외<br>- HR 시스템 연동 자동화 가능 |
+
+---
+
+#### 🚩 직관적 차이 예시
+
+| 예시 | 그룹 유형 | 이유 |
+|------|-----------|------|
+| 영업팀 직원 모두에게 라이선스 자동 부여 | Dynamic + Security Group | 부서 속성 기반 자동 할당 (Dynamic) + 라이선스 가능 (Security) |
+| 마케팅팀의 Teams 협업 채널 구성 | Microsoft 365 Group | Teams, SharePoint, Outlook 등 협업 도구 자동 연결 |
+| 개발자 전용 Azure 리소스 접근 제어 | Security Group | 보안 정책과 역할 기반 권한(RBAC) 적용에 최적 |
+
+---
+
+#### 🔍 왜 구분할까?
+
+- **Microsoft 365 Group**: 협업에 최적화 (M365 앱들과 연결됨)
+- **Security Group**: IT 정책, 앱, 자원 접근 제어에 활용
+- **Dynamic Group**: 조건 기반 자동 구성으로 관리 효율화
+
+---
+
+> 🔄 실제 운영에서는 이 3가지 그룹 유형을 목적에 맞게 **조합하여 사용하는 것이 일반적**입니다.
+> 예: 동적 보안 그룹(Dynamic Security Group)으로 자동 분류 + 해당 그룹에 정책 및 라이선스 적용
+
+---
+
 #### Exercise 1 - Create a security group and add a user
 * Task: Create a security group in Microsoft Entra ID
 ##### 목적  
@@ -39,6 +74,7 @@ Microsoft Entra ID 내 **보안 그룹**, **Microsoft 365 그룹**, 그리고 **
 
 
   <img width="704" alt="image" src="https://github.com/user-attachments/assets/8efac9eb-1c42-45ab-8a61-8dee4b29d5c4" />
+  <img width="1115" alt="스크린샷 2025-06-24 오전 9 57 23" src="https://github.com/user-attachments/assets/c4d9febb-5c23-45f2-9209-996da7366d22" />
 
 
 5. Select the Create button
@@ -59,35 +95,50 @@ Microsoft Entra ID 내 **보안 그룹**, **Microsoft 365 그룹**, 그리고 **
 
 #### Exercise 2 - Create a Microsoft 365 group in Microsoft Entra ID
 * Task: Create the group
+  
+##### 목적  
+협업 플랫폼과 통합 가능한 Microsoft 365 그룹 생성
 
+##### Step
 1. Browse to https://entra.microsoft.com.
 2. Identity > select Groups > All Groups > New group.
 3. Create a group using the following information
 
-![image](https://github.com/user-attachments/assets/1c64f3ad-f1ea-4d51-a2f8-9b20561f5cd0)
+   | 항목              | 값                  |
+   |------------------|---------------------|
+   | Group type       | Microsoft 365       |
+   | Group name       | Wandoo Sales     |
+   | Membership type  | Assigned            |
+   | Member           | `Wandoo-user1` 추가  |
 
-+ Group type: Microsoft 365
-+ Group name: Northwest Sales
-+ Membership type: Assigned
-+ Member: Wandoo-user1 
+<img width="1185" alt="스크린샷 2025-06-24 오전 10 17 54" src="https://github.com/user-attachments/assets/22392495-77f9-401a-a098-e584825f5805" />
 
-4. When complete, verify the group named Northwest sales is shown in the All groups list.
 
-#### Exercise 2 - Create a Microsoft 365 group in Microsoft Entra ID
+4. When complete, verify the group named Wandoo sales is shown in the All groups list.
+
+---
+
+#### Exercise 3 - Create a Microsoft 365 group in Microsoft Entra ID
 * Task 1 : Create the dynamic group
 
 디렉토리를 표준화했기 때문에 이제 동적 그룹을 활용할 수 있습니다. 동적 그룹을 생성하여 프로덕션에서 동적 그룹을 만들 준비가 되었는지 확인해야 합니다.
 
+#### 목적  
+조건 기반 자동 사용자 그룹 구성
+
+#### Step
+
 1. Sign in to the https://entra.microsoft.com with an provided administrator account. You need at least User Administrator role in the tenant.
 2. Select Identity > Groups > All groups > New group.
 
+   | 항목              | 값                         |
+   |------------------|----------------------------|
+   | Group type       | Security                   |
+   | Group name       | Wandoo-dynamic             |
+   | Membership type  | **Dynamic user**           |
+   | Owner            | `Wandoo-user1` 지정         |
+
 ![image](https://github.com/user-attachments/assets/42036b82-6b8d-4cee-863e-d2c494ac0576)
-
-
-+ Group type: Security
-+ Group name: Wandoo-dynamic
-+ Membership type: Dynamic user
-+ Owner: Wandoo-user1 
 
 4. 규칙 구문 상자 오른쪽 위에서 편집을 선택합니다. 규칙 구문 편집 창에서 규칙 구문 상자에 다음 식을 입력합니다:
 
