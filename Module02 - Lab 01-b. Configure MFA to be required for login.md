@@ -2,7 +2,7 @@
 ## 01-b. Configure MFA to be required for login
 
 ### 시나리오 
-사용자 계정에 대한 MFA를 구성하는 방법을 살펴보겠습니다. 이는 멀티 팩터 인증 설정으로 이동하는 또 다른 방법입니다.
+사용자 계정에 대한 MFA를 구성하는 방법을 살펴보겠습니다. 이 방법은 특정 사용자에게만 수동으로 MFA를 설정할 수 있어 테스트 용도로 적합하지만, 대규모 환경에는 비효율적입니다.
 
 #### Exercise 2 - Configure MFA to be required for login
 * Task 1 - Configure Microsoft Entra Per-User MFA
