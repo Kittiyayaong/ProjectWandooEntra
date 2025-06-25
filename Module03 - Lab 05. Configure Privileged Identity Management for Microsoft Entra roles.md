@@ -54,7 +54,7 @@ Microsoft Entra ID를 사용하면 글로벌 관리자가 영구적인 Microsoft
 
    ![image](https://github.com/user-attachments/assets/eb205255-33da-442d-b359-7ee73cc7697b)
 
-2. 'Compliance Administrator' 검색 추 클릭 > next
+2. 'Compliance Administrator' 검색 후 클릭 > next
 
   ![image](https://github.com/user-attachments/assets/087b79f8-84c0-4cfd-bb84-2f2a1d8fabfd)
 
