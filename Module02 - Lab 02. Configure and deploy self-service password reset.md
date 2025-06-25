@@ -61,4 +61,4 @@ SSPR 구성이 예상대로 작동하는지 확인하려면 먼저 제한된 사
 
 7. 설정 완료 
 
-### 🔗 [다음 Lab으로 이동하기 »](https://github.com/Kittiyayaong/ProjectWandooEntra/blob/main/Module02%20-%20Lab%2003.%20Assign%20Azure%20resource%20roles%20in%20Privileged%20Identity%20Management.md)
+### 🔗 [다음 Lab으로 이동하기 »](https://github.com/Kittiyayaong/ProjectWandooEntra/blob/main/Module02%20-%20Lab%2004.%20Identity%20protection.md)
