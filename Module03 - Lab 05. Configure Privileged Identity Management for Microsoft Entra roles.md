@@ -50,7 +50,7 @@ Microsoft Entra ID를 사용하면 글로벌 관리자가 영구적인 Microsoft
 
 권한 부여 신원 관리(PIM) 서비스를 통해 권한 부여 역할 관리자는 영구적인 관리자 역할 할당을 할 수 있습니다. 또한 권한 부여 역할 관리자는 사용자에게 Microsoft Entra 관리자 역할을 부여할 수 있습니다. 자격이 있는 관리자는 역할이 필요할 때 해당 역할을 활성화한 다음 권한이 완료되면 만료될 수 있습니다.
 
-1. Entra admin > Identity governance > Privileged identity Management > Microsoft Entra roles > Roles 클릭 ? Add assignents
+1. Entra admin > Identity governance > Privileged identity Management > Microsoft Entra roles > Roles 클릭 > Add assignents
 
    ![image](https://github.com/user-attachments/assets/eb205255-33da-442d-b359-7ee73cc7697b)
 
