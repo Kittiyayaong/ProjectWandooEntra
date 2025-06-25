@@ -10,7 +10,7 @@
 1. Entra admin center > users > all users > 우측 점 3개 클릭 (...) > per-user MFA 선택 
 ![image](https://github.com/user-attachments/assets/bf58be4f-18ec-4df1-b8cf-d6c5c4aee77b)
 
-2. 새로운 브라우저 탭/창이 열리고 다중 인증 사용자 설정 대화 상자가 열립니다. 사용자를 선택한 다음 오른쪽의 빠른 단계를 사용하여 사용자별로 MFA를 활성화하거나 비활성화할 수 있습니다.
+2. 새로운 브라우저 탭/창이 열리고 다중 인증 사용자 설정 대화 상자가 열립니다. Mod 01에서 생성한 사용자를 선택한 다음 오른쪽의 빠른 단계를 사용하여 사용자별로 MFA를 활성화하거나 비활성화할 수 있습니다.
    
 ![image](https://github.com/user-attachments/assets/e0119b4f-9f2b-469a-ba84-1aa3352e2217)
 
